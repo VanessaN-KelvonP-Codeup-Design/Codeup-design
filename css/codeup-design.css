@@ -5,20 +5,107 @@ body{
     background-color:#E6E6E6;
     /*opacity:0.5;*/
 }
-section{
 
+h1{
+    font-family: 'Anton Regular',sans-serif;
+    font-weight: bold;
+    font-size: 35px;
 }
+
+h2{
+    font-family: 'Abel',sans-serif;
+}
+
+h2.text-center-park{
+    font-family: 'Anton Regular',sans-serif;
+    font-weight: bold;
+    font-size:20px;
+    text-align: center;
+}
+
 p{
     font-family: 'Abel', sans-serif;
 }
+
 div.text-center{
     background-color: #F0F0F0;
     height:3em;
-    margin-top:4em;
-    padding: 0em;
-
+    margin-top:3em;
+    /*padding: 0em;*/
 }
+
 .rounded{
-
-
+    display: inline-block;
+    position: absolute;
+    top: 1.5em;
+    right: 8.85em;
 }
+
+.col-md-6{
+    padding:0;
+}
+
+.nav-item a{
+    color: black;
+}
+
+ul{
+    font-family:'Abel', sans-serif;
+}
+
+.container-circle{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Anton Regular',sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+.dot1 {
+    height: 150px;
+    width: 150px;
+    background-color: #E6563B;
+    border-radius: 50%;
+    border:solid 8px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dot2 {
+    height: 150px;
+    width: 150px;
+    background-color: #DEA03D;
+    border-radius: 50%;
+    border:solid 8px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dot3 {
+    height: 150px;
+    width: 150px;
+    background-color: #7CB06C;
+    border-radius: 50%;
+    border:solid 8px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dot4 {
+    height: 150px;
+    width: 150px;
+    background-color: #00ABA9;
+    border-radius: 50%;
+    border:solid 8px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* need to add rows, nav-bar, H1 positioning and margins, flexbox in the circles, margins in between the circles and selected work, shadow border
