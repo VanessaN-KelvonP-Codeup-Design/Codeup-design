@@ -1,0 +1,24 @@
+
+body{
+    margin-top:1em;
+    font-family: 'anton regular', sans-serif;
+    background-color:#E6E6E6;
+    /*opacity:0.5;*/
+}
+section{
+
+}
+p{
+    font-family: 'Abel', sans-serif;
+}
+div.text-center{
+    background-color: #F0F0F0;
+    height:3em;
+    margin-top:4em;
+    padding: 0em;
+
+}
+.rounded{
+
+
+}
