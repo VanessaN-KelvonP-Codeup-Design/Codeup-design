@@ -19,12 +19,10 @@
 <div class="container-fluid p-0" >
     <div class="row">
         <div class="col">
-            <div class="text-center">
+            <div class="small-navbar text-center">
                 <img  src="images/logo.png" width="105px" height="105px" class="rounded " alt="image logo">
-            </div>
             <div
                     class="white-logo-bg mt-5 m-sm-0">
-
             </div>
 
             <ul class="small-nav1 d-none d-sm-inline-block">
@@ -43,8 +41,8 @@
                     <a class="nav-link " href="#">CONTACT</a>
                 </li>
             </ul>
-
-            <h2 class="text-center">codeup design</h2>
+        </div>
+            <h2 class="codeup text-center">codeup design</h2>
             <div class="row">
 
                 <ul class="nav d-sm-none  justify-content-evenly text center-sm mt-1">
@@ -93,51 +91,69 @@
 
 <!-- I added everything from LINE 94 TO LINE 142 (the layout of the images and the spacing). The spacing could use some work though since I didn't realize the were further apart.
 I wasn't sure how to specify changes according to screen size, so I just kept my window at 767 (the largest setting of small screen), so that will also need to be edited. I commented out your original table format just in case we need to revert to that, and I kept that last "Feature Project" at the bottom because I wasn't sure if there was away to change the position underneath the "Man" image once the screen changed. -->
-<div class="images-container p-5">
+<div class="images container-fluid">
 
     <div class="row ml-5">
-        <div class="col">
-            <img class="ipad-apple text center mb-1 pr-5" src="images/apple-ipad.jpg" height="150px" alt="ipad-img">
-            <div class="container-circle1 pr-sm-3 mr-5">
-                <h5 class="text-left-feat mt-2 mr-4">FEATURED PROJECT </h5>
-                <span class="sm-dot">
+        <div class=" col-6 p-0">
+            <img class="images-sm ipad-apple text center mb-1 mr-5" src="images/apple-ipad.jpg" height="150px" width="273px"  alt="ipad-img">
+            <div class="container-circle1 pr-sm-3 d-none d-sm-inline-block">
+                <div class="row">
+                <h5 class="text-left-feat mt-2 mr-4 ml-4">FEATURED PROJECT </h5>
+                <span class="sm-dot ml-4">
+                <span class="sm-dot1 m-1">D</span>
+                <span class="sm-dot2 m-1">D</span>
+                <span class="sm-dot3 m-1">S</span>
+                <span class="sm-dot4 m-1">H</span></span>
+                </div>
+            </div>
+        </div>
+
+        <div class=" col-6 p-0">
+            <img class="images-sm mac-img row d-none d-sm-block mb-1 ml-1" src="images/macbook.jpg" height="150px" width="273px" alt="macbook-img">
+            <div class="container-circle1 pr-sm-3 d-none d-sm-inline-block">
+                <div class="row">
+                <h5 class="text-left-feat mt-2 ml-4 mr-4">FEATURED PROJECT </h5>
+                <span class="sm-dot ml-4">
                 <span class="sm-dot1 m-1">D</span>
                 <span class="sm-dot2 m-1">D</span>
                 <span class="sm-dot3 m-1">S</span>
                 <span class="sm-dot4 m-1">H</span></span>
             </div>
+            </div>
         </div>
+    </div>
 
-        <div class="col">
-            <img class="mac-img row d-none d-sm-block mb-1 pl-5" src="images/macbook.jpg" height="150px"
-                 alt="macbook-img">
-            <div class="container-circle1 pr-sm-3">
-                <h5 class="text-left-feat mt-2 ml-3 mr-4">FEATURED PROJECT </h5>
-                <span class="sm-dot">
+    <div class="row">
+        <div class="col-6 p-0">
+            <img class="images-sm man-img d-none d-sm-block ml-5 mr-2 mt-5" src="images/man.jpg" height="150px" width="273px"
+                 alt="man-img">
+            <div class="container-circle1 pr-sm-3 d-none d-sm-block">
+                <div class="row">
+                <h5 class="text-left-feat mt-2 mr-4 ml-5 pl-4">FEATURED PROJECT </h5>
+                <span class="sm-dot ml-4">
                 <span class="sm-dot1 m-1">D</span>
                 <span class="sm-dot2 m-1">D</span>
                 <span class="sm-dot3 m-1">S</span>
                 <span class="sm-dot4 m-1">H</span></span>
             </div>
+            </div>
         </div>
 
-        <div class="col">
-            <img class="man-img d-none d-sm-block mr-2 mt-5 pr-5" src="images/man.jpg" height="150px" alt="man-img">
-        </div>
 
-        <div class="col">
-            <img class="security-img d-none d-sm-block mr-5 mt-5 pl-5" src="images/security.jpg" height="150px" alt="security-img">
+        <div class="col-6 p-0">
+            <img class="images-sm security-img d-none d-sm-block ml-5 mr-2 mt-5" src="images/security.jpg" height="150px" width="273px" alt="security-img">
 
-            <div class="container-circle1 pr-sm-3">
-                <h5 class="text-left-feat mt-2 ml-3">FEATURED PROJECT </h5>
-                <span class="sm-dot">
+            <div class="container-circle1 pr-sm-3 d-none d-sm-block">
+                <div class="row">
+                <h5 class="text-left-feat mt-2 ml-5 pl-4">FEATURED PROJECT </h5>
+                <span class="sm-dot ml-5">
                 <span class="sm-dot1 m-1">D</span>
                 <span class="sm-dot2 m-1">D</span>
                 <span class="sm-dot3 m-1">S</span>
                 <span class="sm-dot4 m-1">H</span></span>
             </div>
+            </div>
         </div>
-
     </div>
 </div>
 
@@ -163,7 +179,7 @@ I wasn't sure how to specify changes according to screen size, so I just kept my
 
 
 
-<div class="container-circle1 mr-sm-2" >
+<div class="container-circle1 mr-sm-2 d-sm-none" >
     <h5 class="text-left-feat mt-2 mr-5">FEATURED PROJECT</h5>
     <span class="sm-dot">
     <span class="sm-dot1 m-1 ml-5">D</span>
