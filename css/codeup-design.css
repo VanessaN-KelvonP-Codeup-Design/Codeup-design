@@ -168,6 +168,7 @@ ul{
     background-color: #00ABA9;
 }
 .sm-dot{
+
     display: flex;
     flex-direction: row;
 
