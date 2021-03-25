@@ -20,6 +20,10 @@ h2{
     font-family: 'Abel',sans-serif;
 }
 
+.codeup{
+    margin-top: 28px;
+}
+
 h2.text-center-park{
     font-family: 'Anton Regular',sans-serif;
     font-weight: bold;
@@ -164,7 +168,8 @@ ul{
     background-color: #00ABA9;
 }
 .sm-dot{
-   display: flex;
+
+    display: flex;
     flex-direction: row;
 
 }
@@ -180,17 +185,20 @@ ul{
 .small-nav1{
     list-style: none;
     position: relative;
-    top: -3em;
-    left: 7.5em;
+    top: -6em;
+    left: -9em;
 
 }
 
 .small-nav2{
     list-style: none;
     position: relative;
-    top: -3em;
-    left: 14em;
+    top: -6em;
+    left: 6em;
 
 }
-/*}*/
-/* need to add rows, nav-bar, H1 positioning and margins, flexbox in the circles, margins in between the circles and selected work, shadow border
+
+.images-sm {
+    border: 4px solid lightgray;
+    border-radius: 3%;
+}
