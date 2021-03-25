@@ -6,7 +6,9 @@ body{
     background-color:#E6E6E6;
 
 }
-
+div.container{
+    margin:0;
+}
 h1{
     font-family: 'Anton Regular',sans-serif;
     font-weight: bold;
@@ -24,11 +26,11 @@ h2.text-center-park{
     font-size:20px;
     /*margin:0 auto;*/
 }
-.ipad-apple{
-    border: 4px solid lightgray;
-    border-radius: 3%;
+/*.ipad-apple{*/
+/*    border: 4px solid lightgray;*/
+/*    border-radius: 3%;*/
 
-}
+/*}*/
 p{
     font-family: 'Abel', sans-serif;
 }
@@ -37,7 +39,7 @@ div.text-center{
     background-color: #F0F0F0;
     height:3em;
     margin-top:3em;
-    /*width:100%;*/
+    width:100%;
 }
 
 .rounded{
@@ -179,7 +181,7 @@ ul{
     list-style: none;
     position: relative;
     top: -3em;
-    left: 0.5em;
+    left: 7.5em;
 
 }
 
@@ -187,7 +189,7 @@ ul{
     list-style: none;
     position: relative;
     top: -3em;
-    left: 7em;
+    left: 14em;
 
 }
 /*}*/
